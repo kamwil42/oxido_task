@@ -4,6 +4,7 @@
 Aplikacja jest prostym narzędziem, które automatyzuje proces przekształcania artykułu w formacie tekstowym na semantyczny i dobrze zorganizowany kod HTML. Dzięki integracji z API OpenAI aplikacja generuje kod HTML, który spełnia określone wymagania, takie jak odpowiednia struktura nagłówków, akapitów i miejsc na obrazy.
 
 ## Struktura projektu
+.env - plik zawierający klucz do API
 .gitignore - plik określający jakie pliki mają być ignorowane przez repozytorium git
 requirements.txt - plik określajacy biblioteki wymagane do uruchomienia aplikacji
 src/artykul.html - plik wyjściowy z wygenerowanym kodem HTML
@@ -36,7 +37,7 @@ Wyjaśnienie funkcji:
 ## Instalacja
 1. Sklonuj repozytorium za pomocą komendy
 
-    git clone https://github.com/your_username/project_name.git
+    git clone https://github.com/kamwil42/oxido_task.git
     
 lub pobierz je jako plik .zip i rozpakuj na komputerze. Przejdź do głownego folderu i otwórz w nim wiersz poleceń.
 
